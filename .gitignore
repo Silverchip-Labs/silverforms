@@ -1,2 +1,4 @@
 node_modules
 built/
+demo/node_modules
+demo/built
