@@ -43,3 +43,4 @@ will be a different repo for React Native components
 
 -   Automated testing
 -   Continuous Integration
+-   Ensure fully accessible, at the very least should be as accessible as default html form inputs (mainly applies to selects/pickers)
