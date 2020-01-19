@@ -1,5 +1,6 @@
-import textInput from './components/TextInput';
+import TextInput from './components/TextInput';
+// for importing individual component
+export { default as TextInput } from './components/TextInput';
 
-export const TextInput = textInput;
-
+// for importing whole library
 export default { TextInput };
