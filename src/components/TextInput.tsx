@@ -10,7 +10,7 @@ export interface TextInputProps {
     handleChange: HandleChangeFunc<string>;
     handleBlur?: HandleBlurFunc<React.ChangeEvent<HTMLInputElement>>;
     handleFocus?: HandleFocusFunc<React.ChangeEvent<HTMLInputElement>>;
-    className: string;
+    className?: string;
 }
 
 const TextInput: React.FC<TextInputProps> = ({
