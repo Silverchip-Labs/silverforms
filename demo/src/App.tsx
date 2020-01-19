@@ -45,7 +45,7 @@ const App: React.FC = () => {
 
     function getFormValues(): JSX.Element[] {
         return Object.keys(form).map(key => (
-            <p>
+            <p key={key}>
                 {key}: {form[key]}
             </p>
         ));
