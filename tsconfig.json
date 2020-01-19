@@ -9,8 +9,8 @@
     ],
     "jsx": "react",
     "declaration": true,
-    "outDir": "./built",
-    "rootDir": "./src",
+    "outDir": "built",
+    "rootDir": "src",
     "strict": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
@@ -20,14 +20,11 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": true
   },
   "compileOnSave": true,
   "exclude": [
     "node_modules",
-    "example"
+    "demo",
+    "built"
   ],
-  "include": [
-    "src"
-  ]
 }

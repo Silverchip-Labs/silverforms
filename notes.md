@@ -4,6 +4,8 @@ Silverchip's form input library
 
 ## Milestones:
 
+will be a different repo for React Native components
+
 ### Ready for development
 
 -   Project setup (prettier/eslint, git repo, tsconfig, folder structure, license)
