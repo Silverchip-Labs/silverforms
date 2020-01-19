@@ -10,7 +10,7 @@
         "useJSXTextNode": true,
         "ecmaVersion": 2020
     },
-    "extends": ["plugin:@typescript-eslint/recommended", "prettier", "prettier/@typescript-eslint"],
+    "extends": ["plugin:@typescript-eslint/recommended", "prettier", "react-app"],
     "plugins": ["@typescript-eslint", "prettier"],
     "rules": {}
 }
