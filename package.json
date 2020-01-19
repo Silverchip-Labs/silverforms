@@ -9,7 +9,7 @@
     "lint": "eslint 'src/**/*.{ts,tsx}' --fix",
     "prepare": "npm run build",
     "build": "rm -rf built && tsc",
-    "start": "tsc -w --outDir demo/built"
+    "start": "tsc -w --outDir demo/built/silverform"
   },
   "keywords": [],
   "author": "",
